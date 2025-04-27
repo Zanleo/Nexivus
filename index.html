@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexivus Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+		    background: linear-gradient(90deg, #4a90e2, #357ABD);
+
+            background-color: #4a90e2;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #357ABD;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h1, h2 {
+            color: #4a90e2;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+            main {
+                padding: 1rem;
+            }
+        }
+		button:hover {
+			background: linear-gradient(90deg, #357ABD, #4a90e2);
+		}
+    </style>
+	<link rel="icon" type="image/png" href="Nexivus_icon.png">
+</head>
+<body>
+    <header>
+		<img src="Nexivus_Logo.png" alt="Nexivus Logo" style="max-width: 200px; margin-top: 1rem;">
+		<p>Helping you succeed with our Unity assets</p>
+    </header>
+    <nav>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section class="section" id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <p><strong>Q: How do I import the asset into my project?</strong></p>
+            <p>A: Download it from the Unity Asset Store, then import via Unity's Package Manager.</p>
+            <p><strong>Q: How do I request support?</strong></p>
+            <p>A: You can contact us using the form below or via our support email.</p>
+        </section>
+        <section class="section" id="contact">
+            <h2>Contact Us</h2>
+            <p>Need help? Reach out to our support team:</p>
+            <ul>
+                <li>Email: <a href="mailto:zanleo.z+nexivus.unitystoresupport@gmail.com">Support mail</a></li>
+                <li>Response time: usually within 7 business days.</li>
+				<br>
+				<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+					<label for="email">Your Email:</label><br>
+					<input type="email" id="email" name="email" required style="width: 100%; padding: 0.5rem; margin-top: 0.5rem;"><br><br>
+
+					<label for="message">Your Message:</label><br>
+					<textarea id="message" name="message" rows="5" required style="width: 100%; padding: 0.5rem; margin-top: 0.5rem;"></textarea><br><br>
+
+					<button  type="submit" style="
+    background: linear-gradient(90deg, #4a90e2, #357ABD);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.5s;
+">Send</button>
+				</form>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Nexivus. All rights reserved.
+    </footer>
+</body>
+</html>
